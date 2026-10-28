@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import QuickBookingWidget from "@/components/QuickBookingWidget";
 import ServicesSection from "@/components/ServicesSection";
 import WorkPermitsSection from "@/components/WorkPermitsSection";
+import PassportVisaInquirySection from "@/components/PassportVisaInquirySection";
 import HajjUmrahSection from "@/components/HajjUmrahSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import LocationContactSection from "@/components/LocationContactSection";
@@ -34,6 +35,9 @@ export default function Home() {
 
         {/* 5. Active Work Permits Section (Albania & Europe) */}
         <WorkPermitsSection />
+
+        {/* 5b. Passport & Visa Inquiry / Booking — 3-Step WhatsApp Form */}
+        <PassportVisaInquirySection />
 
         {/* Dedicated Hajj & Umrah Section */}
         <HajjUmrahSection />
