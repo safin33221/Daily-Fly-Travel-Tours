@@ -1,17 +1,17 @@
 import React from "react";
-import AnnouncementBar from "@/components/AnnouncementBar";
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import QuickBookingWidget from "@/components/QuickBookingWidget";
-import ServicesSection from "@/components/ServicesSection";
-import WorkPermitsSection from "@/components/WorkPermitsSection";
-import PassportVisaInquirySection from "@/components/PassportVisaInquirySection";
-import HajjUmrahSection from "@/components/HajjUmrahSection";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import LocationContactSection from "@/components/LocationContactSection";
-import FaqSection from "@/components/FaqSection";
-import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import AnnouncementBar from "@/components/module/Home/AnnouncementBar";
+import Navbar from "@/components/shared/Navbar";
+import HeroSection from "@/components/module/Home/HeroSection";
+import QuickBookingWidget from "@/components/module/Home/QuickBookingWidget";
+import ServicesSection from "@/components/module/Home/ServicesSection";
+import WorkPermitsSection from "@/components/module/Home/WorkPermitsSection";
+import PassportVisaInquirySection from "@/components/module/Home/PassportVisaInquirySection";
+import HajjUmrahSection from "@/components/module/Home/HajjUmrahSection";
+import WhyChooseUs from "@/components/module/Home/WhyChooseUs";
+import LocationContactSection from "@/components/module/Home/LocationContactSection";
+import FaqSection from "@/components/module/Home/FaqSection";
+import Footer from "@/components/shared/Footer";
+import FloatingWhatsApp from "@/components/module/Home/FloatingWhatsApp";
 
 export default function Home() {
   return (
